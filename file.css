@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background: #f8f9fa;
+}

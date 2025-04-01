@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capstone 2: Document Spec</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="external.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .hero-section {
+            background: #818588;
+            padding: 50px 0;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/ic-logo.svg"
+                        alt="Colmar Academy" height="32" class="d-inline-block align-text-top">
+                    <span> COLMAR ACADEMY</span>
+                </a>
+                <div class="d-flex">
+                    <a class="nav-link" href="#">On campus</a>
+                    <a class="nav-link" href="#">Online</a>
+                    <a class="nav-link" href="#">For companies</a>
+                    <a class="nav-link" href="#">Sign in</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="container">
+            <div class="row hero-section text-center">
+                <div class="col-md-6">
+                    <img src="img/banner.jpg"
+                        class="img-fluid" alt="Study Image">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h2 class="h2">Learn something new every day</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn-primary" style="background-color:rgb(68, 62, 62); width:250px">
+                            Start here
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-8">
+                    <div class="card border-0">
+                        <img src="img/information-main.jpg"
+                            class="card-img-top" alt="Student Reading" style="width:60%; height: 50%;">
+                        <div class="card-body px-4">
+                            <h2 class="title">It doesn’t hurt to keep practicing</h2>
+                            <p class="text-muted">
+                                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque."
+                            </p>
+                            <p class="author">Emanuel, Sr Strategist at Hiring.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar -->
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <div class="card mb-3 border-0">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/information-orientation.jpg"
+                                        class="img-fluid rounded-start" style="width: 100px; height: 100%;" alt="Orientation">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Orientation date</h5>
+                                        <p class="card-text">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                        <a href="#" class="text-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 border-0">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/information-campus.jpg"
+                                        class="img-fluid rounded-start" style="width: 100px; height: 100px;"alt="Campus">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Our campus</h5>
+                                        <p class="card-text">Find which campus is close by you.</p>
+                                        <a href="#" class="text-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 border-0">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="img/information-guest-lecture.jpg"
+                                        class="img-fluid rounded-start"  style="width: 100px; height: 100px;"  alt="Guest Lecture">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Our guest lecture</h5>
+                                        <p class="card-text">Join a keynote with Oliver Sack about music in medical treatment.</p>
+                                        <a href="#" class="text-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="mt-4" style="align-content: center;">Start Learning</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-software.jpg" class="card-img-top" alt="Engineering">
+                    <div class="card-body">
+                        <h4>Software Engineering</h4>
+                        <p>Learn coding, AI, and more.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-business.jpg" class="card-img-top" alt="Computer Art">
+                    <div class="card-body">
+                        <h4>business</h4>
+                        <p>Explore design and animation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-computer-art.jpg" class="card-img-top" alt="Computer Art">
+                    <div class="card-body">
+                        <h4>desing</h4>
+                        <p>Explore design and animation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-data.jpg" class="card-img-top" alt="Computer Art">
+                    <div class="card-body">
+                        <h4><data value="">data</data></h4>
+                        <p>Explore design and animation.</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-computer-art.jpg" class="card-img-top" alt="Computer Art">
+                    <div class="card-body">
+                        <h4><data value="">computer arts</data></h4>
+                        <p>Explore design and animation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/course-marketing.jpg" class="card-img-top" alt="Computer Art">
+                    <div class="card-body">
+                        <h4><data value="">marketing</data></h4>
+                        <p>Explore design and animation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Video Section -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-8 video-section">
+                    <div class="video-container">
+                        <iframe width="100%" height="315" src="video/thesis.mp4"
+                            frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h2 class="section-title">Reimagine Urban</h2>
+                    <p class="section-text">
+                        "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus."
+                    </p>
+                    <p class="copyright">© 2018 Colmar Academy. All rights reserved.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="img/thesis-fisma.jpg" style="width: 250px; height: 100px;" alt="Design Image">
+                        <h3>Fisma: Design and Prototype</h3>
+                        <p>Designer showcase of new prototype product.</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/thesis-now-and-then.jpg" style="width: 250px; height: 100px;"  alt="New York Image">
+                        <h3>Now and then</h3>
+                        <p>Research study about New York.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile view-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#"> <img src="img/ic-logo.svg"
+                        class="img-fluid" alt="Study Image"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="img/ic-login.svg"
+                        class="img-fluid" alt="Study Image"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="img/ic-on-campus.svg"
+                        class="img-fluid" alt="Study Image"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="img/ic-online.svg"
+                            class="img-fluid" alt="Study Image"></a></li>
+                </ul>
+            </div>
+        </nav>
+        
+
+        <!-- Footer -->
+        <footer class="text-center mt-4">
+            <p>Terms | Privacy</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
